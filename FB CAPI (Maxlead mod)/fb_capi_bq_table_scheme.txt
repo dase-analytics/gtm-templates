@@ -1,0 +1,99 @@
+[
+ {
+   "name": "channel_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Name of the marketing channel responsible for the event."
+ },
+ {
+   "name": "pixel_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique identifier for the tracking pixel used to capture events on the website."
+ },
+ {
+   "name": "event_time",
+   "type": "TIMESTAMP",
+   "mode": "NULLABLE",
+   "description": "The exact time when the event occurred, in UTC."
+ },
+ {
+   "name": "event_name",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Descriptive name of the event."
+ },
+ {
+   "name": "event_id",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Unique identifier for the event, such as a transaction ID or event-specific ID for tracking purposes."
+ },
+ {
+   "name": "status_code",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Status code associated with the event processing, indicating success or specific errors."
+ },
+ {
+   "name": "response",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "The response returned after processing the event, typically used for troubleshooting or validation."
+ },
+ {
+   "name": "action_source",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Indicates the origin of the event."
+ },
+ {
+   "name": "page_location",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Full URL of the webpage where the event occurred."
+ },
+ {
+   "name": "refferer",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "URL of the referring page that directed the user to the current page (i.e., the previous page)."
+ },
+ {
+   "name": "user_agent",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "User agent string identifying the browser, operating system, and device of the user."
+ },
+ {
+   "name": "fbp",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Facebook ID used to track events and user behavior on the site."
+ },
+ {
+   "name": "fbc",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Facebook Click ID that tracks user clicks from Facebook ads to the website."
+ },
+{
+   "name": "user_data",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "JSON object containing details about the user."
+ },
+ {
+   "name": "custom_data",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "JSON object holding additional custom event data."
+ },
+ {
+   "name": "consent",
+   "type": "STRING",
+   "mode": "NULLABLE",
+   "description": "Google Consent Settings"
+ }
+]
+
