@@ -11,7 +11,7 @@
     "displayName": "",
     "thumbnail": "data:image/jpeg;base64,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\u003d"
   },
-  "description": "A server-side tag template (v.1.0.1) for Facebook Conversion API. Designed to processes GA4 data from website.",
+  "description": "A server-side tag template for Facebook Conversion API. Designed to processes GA4 data from website.",
   "containerContexts": [
     "SERVER"
   ]
@@ -268,7 +268,7 @@ ___TEMPLATE_PARAMETERS___
 ___SANDBOXED_JS_FOR_SERVER___
 
 // https://developers.facebook.com/docs/marketing-api/conversions-api/best-practices
-// v.1.0.1
+// v.1.0.2
 
 // Sandbox JavaScript imports and initializations
 const getAllEventData = require('getAllEventData');
@@ -426,8 +426,8 @@ function setFBCookies(event, data) {
           event.user_data.fbc = 'fb.' + subDomainIndex + '.' + 
                                  getTimestampMillis() + '.' + decodeUriComponent(fbclid);
         }
-    }
-  } else { event.user_data.fbc = null; }
+    } else { event.user_data.fbc = null; }
+  } else { event.user_data.fbc = _fbc; }
   
   if (!_fbp) {
   event.user_data.fbp = 'fb.' + subDomainIndex + '.' +
@@ -532,7 +532,7 @@ if (user) { event.user_data = setUserData(event, user); }
 if (data.extendCookies) { event.user_data = setFBCookies(event, data); }
 event.user_data.client_ip_address = eventData.ip_override;
 event.user_data.client_user_agent = eventData.user_agent;
-if (fbDataObject.user_data) { event.user_data = addFBDataObject(event, fbDataObject, 'user_data'); }
+if (data.cfoEnabled && fbDataObject.user_data) { event.user_data = addFBDataObject(event, fbDataObject, 'user_data'); }
 if (data.udEnabled) { event.user_data = customUserDataMapping(event, data); }
 
 // Custom data parameters
@@ -541,7 +541,7 @@ event.custom_data.value = eventData.value;
 event.custom_data.currency = eventData.currency;
 if (eventData.items) { event.custom_data = ga4ItemObjectMapping(event, data); }
 event.custom_data.search_string = eventData.search_term;
-if (fbDataObject.custom_data) { event.custom_data = addFBDataObject(event, fbDataObject, 'custom_data'); }
+if (data.cfoEnabled && fbDataObject.custom_data) { event.custom_data = addFBDataObject(event, fbDataObject, 'custom_data'); }
 if (data.cdEnabled) { event.custom_data = customDataMapping(event, data); }
 
 // Prepare the event request for sending to Facebook's Conversions API, including setting the test event code if applicable
@@ -599,7 +599,7 @@ function bigQuery(data, statusCode, response) {
     bqEvent.response = response;
     bqEvent.action_source = event.action_source;
     bqEvent.page_location = event.event_source_url;
-    bqEvent.refferer = event.referrer_url;
+    bqEvent.referrer = event.referrer_url;
     bqEvent.user_agent = event.user_data.client_user_agent;
     bqEvent.fbp = event.user_data.fbp;
     bqEvent.fbc = event.user_data.fbc;

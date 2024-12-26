@@ -54,7 +54,7 @@
    "description": "Full URL of the webpage where the event occurred."
  },
  {
-   "name": "refferer",
+   "name": "referrer",
    "type": "STRING",
    "mode": "NULLABLE",
    "description": "URL of the referring page that directed the user to the current page (i.e., the previous page)."
