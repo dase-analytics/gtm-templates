@@ -8,11 +8,13 @@ Version: 1.0.2
 
 
 ### Change log:
-1.0.2	- corrected BQ parameter name referrer
-	- fixed fb_object on/off condition
-	- fixed _fbc cookie logic
+1.0.2	
+- corrected BQ parameter name referrer
+- fixed fb_object on/off condition
+- fixed _fbc cookie logic
 
-1.0.1 	- fixed fb_object logic
+1.0.1 	
+- fixed fb_object logic
 
 
 

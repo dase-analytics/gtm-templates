@@ -1,5 +1,5 @@
 // https://developers.facebook.com/docs/marketing-api/conversions-api/best-practices
-// v.1.0.1
+// v.1.0.2
 
 // Sandbox JavaScript imports and initializations
 const getAllEventData = require('getAllEventData');
@@ -157,8 +157,8 @@ function setFBCookies(event, data) {
           event.user_data.fbc = 'fb.' + subDomainIndex + '.' + 
                                  getTimestampMillis() + '.' + decodeUriComponent(fbclid);
         }
-    }
-  } else { event.user_data.fbc = null; }
+    } else { event.user_data.fbc = null; }
+  } else { event.user_data.fbc = _fbc; }
   
   if (!_fbp) {
   event.user_data.fbp = 'fb.' + subDomainIndex + '.' +
@@ -263,7 +263,7 @@ if (user) { event.user_data = setUserData(event, user); }
 if (data.extendCookies) { event.user_data = setFBCookies(event, data); }
 event.user_data.client_ip_address = eventData.ip_override;
 event.user_data.client_user_agent = eventData.user_agent;
-if (fbDataObject.user_data) { event.user_data = addFBDataObject(event, fbDataObject, 'user_data'); }
+if (data.cfoEnabled && fbDataObject.user_data) { event.user_data = addFBDataObject(event, fbDataObject, 'user_data'); }
 if (data.udEnabled) { event.user_data = customUserDataMapping(event, data); }
 
 // Custom data parameters
@@ -272,7 +272,7 @@ event.custom_data.value = eventData.value;
 event.custom_data.currency = eventData.currency;
 if (eventData.items) { event.custom_data = ga4ItemObjectMapping(event, data); }
 event.custom_data.search_string = eventData.search_term;
-if (fbDataObject.custom_data) { event.custom_data = addFBDataObject(event, fbDataObject, 'custom_data'); }
+if (data.cfoEnabled && fbDataObject.custom_data) { event.custom_data = addFBDataObject(event, fbDataObject, 'custom_data'); }
 if (data.cdEnabled) { event.custom_data = customDataMapping(event, data); }
 
 // Prepare the event request for sending to Facebook's Conversions API, including setting the test event code if applicable
@@ -330,7 +330,7 @@ function bigQuery(data, statusCode, response) {
     bqEvent.response = response;
     bqEvent.action_source = event.action_source;
     bqEvent.page_location = event.event_source_url;
-    bqEvent.refferer = event.referrer_url;
+    bqEvent.referrer = event.referrer_url;
     bqEvent.user_agent = event.user_data.client_user_agent;
     bqEvent.fbp = event.user_data.fbp;
     bqEvent.fbc = event.user_data.fbc;
