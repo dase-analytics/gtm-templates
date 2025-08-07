@@ -15,7 +15,7 @@ V danom priečinku kliknite na súbor s príponou `.json`, ktorý obsahuje kód 
 ### 3. Stiahnutie súboru
 Na stránke súboru kliknite vpravo hore na tlačidlo **Raw** alebo na ikonu na stiahnutie. Súbor si uložte do počítača (zvyčajne cez pravý klik a možnosť "Uložiť ako...").
 
-![Download Raw File](images/donwload_raw_file.png)
+![Download Raw File](images/download_raw_file.png)
 
 ### 4. Import do GTM kontajnera
 V rozhraní vášho Google Tag Manager kontajnera prejdite do sekcie **Správca** (Admin). V stĺpci *Kontajner* (Container) zvoľte možnosť **Importovať kontajner** (Import Container).
