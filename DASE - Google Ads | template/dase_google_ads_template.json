@@ -1,0 +1,449 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-08-07 12:55:19",
+    "containerVersion": {
+        "path": "accounts/6307289618/containers/226795059/versions/0",
+        "accountId": "6307289618",
+        "containerId": "226795059",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6307289618/containers/226795059",
+            "accountId": "6307289618",
+            "containerId": "226795059",
+            "name": "DASE - Google Ads | template",
+            "publicId": "GTM-N9HV2ZS4",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1754558247990",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6307289618/containers/226795059/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-N9HV2ZS4"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "tagId": "3",
+                "name": "Conversion Linker",
+                "type": "gclidw",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCrossDomain",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableUrlPassthrough",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableCookieOverrides",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1754566538713",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "16",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "tagId": "5",
+                "name": "GAds - Remarketing",
+                "type": "sp",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableDynamicRemarketing",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{** Edit ** GAds - Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "customParamsFormat",
+                        "value": "NONE"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1754566538712",
+                "firingTriggerId": [
+                    "2147479553"
+                ],
+                "parentFolderId": "16",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "tagId": "7",
+                "name": "GAds - Conversion",
+                "type": "awct",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableShippingData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{** Edit ** GAds - Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "EDIT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1754571242512",
+                "parentFolderId": "16",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "tagId": "8",
+                "name": "GAds - Conversion - purchase",
+                "type": "awct",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableNewCustomerReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "orderId",
+                        "value": "{{DL - ecommerce.transaction_id}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableProductReporting",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionValue",
+                        "value": "{{DL - ecommerce.value}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionCookiePrefix",
+                        "value": "_gcl"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableShippingData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{** Edit ** GAds - Conversion ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "currencyCode",
+                        "value": "{{DL - ecommerce.currency (EUR by default)}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionLabel",
+                        "value": "EDIT"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "rdp",
+                        "value": "false"
+                    }
+                ],
+                "fingerprint": "1754571268036",
+                "firingTriggerId": [
+                    "12"
+                ],
+                "parentFolderId": "16",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "triggerId": "12",
+                "name": "Event - EC - purchase",
+                "type": "CUSTOM_EVENT",
+                "customEventFilter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{_event}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "purchase"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1754566507999",
+                "parentFolderId": "15"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "variableId": "4",
+                "name": "** Edit ** GAds - Conversion ID",
+                "type": "c",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "value",
+                        "value": "G-123456789"
+                    }
+                ],
+                "fingerprint": "1754566733306",
+                "parentFolderId": "16",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "variableId": "10",
+                "name": "DL - ecommerce.value",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.value"
+                    }
+                ],
+                "fingerprint": "1754566482713",
+                "parentFolderId": "15",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "variableId": "13",
+                "name": "DL - ecommerce.transaction_id",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.transaction_id"
+                    }
+                ],
+                "fingerprint": "1754566482713",
+                "parentFolderId": "15",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "variableId": "14",
+                "name": "DL - ecommerce.currency (EUR by default)",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "EUR"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "ecommerce.currency"
+                    }
+                ],
+                "fingerprint": "1754566482713",
+                "parentFolderId": "15",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "folderId": "15",
+                "name": "PLACEHOLDERS",
+                "fingerprint": "1754566481990"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "folderId": "16",
+                "name": "Google Ads",
+                "fingerprint": "1754566537932"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "type": "PAGE_HOSTNAME",
+                "name": "Page Hostname"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "type": "PAGE_PATH",
+                "name": "Page Path"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "type": "EVENT",
+                "name": "Event"
+            }
+        ],
+        "fingerprint": "1754571319359",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6307289618/containers/226795059/versions/0?apiLink=version"
+    }
+}

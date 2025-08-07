@@ -1,0 +1,1324 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-08-07 12:50:05",
+    "containerVersion": {
+        "path": "accounts/6307289618/containers/226762478/versions/0",
+        "accountId": "6307289618",
+        "containerId": "226762478",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6307289618/containers/226762478",
+            "accountId": "6307289618",
+            "containerId": "226762478",
+            "name": "DASE - GA4 - Basic | template",
+            "publicId": "GTM-PVZ3DGC2",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1754558405327",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6307289618/containers/226762478/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-PVZ3DGC2"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "tagId": "49",
+                "name": "GA4 - error_event_404",
+                "type": "gaawe",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "component_type"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "404"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "component_text"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "Page not found"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "error_event_404"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA4 - Measurement ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{GT - GA4 Event Settings (basic)}}"
+                    }
+                ],
+                "fingerprint": "1754561188389",
+                "firingTriggerId": [
+                    "8"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_LOAD",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "tagId": "57",
+                "name": "GA4 - tel_click",
+                "type": "gaawe",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "outbound"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "false"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "component_type"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "telephone_number"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "tel_click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA4 - Measurement ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{GT - GA4 Event Settings (click)}}"
+                    }
+                ],
+                "fingerprint": "1754561211200",
+                "firingTriggerId": [
+                    "55"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "tagId": "64",
+                "name": "GA4 - mail_click",
+                "type": "gaawe",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "outbound"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "false"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "component_type"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "email_link"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "mail_click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA4 - Measurement ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{GT - GA4 Event Settings (click)}}"
+                    }
+                ],
+                "fingerprint": "1754561197465",
+                "firingTriggerId": [
+                    "63"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "tagId": "90",
+                "name": "GA4 - Configuration",
+                "type": "googtag",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "tagId",
+                        "value": "{{GA4 - Measurement ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "configSettingsVariable",
+                        "value": "{{GT - GA4 Configuration Settings}}"
+                    }
+                ],
+                "fingerprint": "1754561148484",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_LOAD",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "tagId": "91",
+                "name": "GA4 - social_click",
+                "type": "gaawe",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "component_type"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "social_network"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "outbound"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "component_name"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Click URL Hostname}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "social_click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA4 - Measurement ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{GT - GA4 Event Settings (click)}}"
+                    }
+                ],
+                "fingerprint": "1754561204095",
+                "firingTriggerId": [
+                    "65"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "tagId": "92",
+                "name": "GA4 - button_click",
+                "type": "gaawe",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "component_type"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "button"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "button_click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA4 - Measurement ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{GT - GA4 Event Settings (click)}}"
+                    }
+                ],
+                "fingerprint": "1754561163506",
+                "firingTriggerId": [
+                    "80"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "tagId": "93",
+                "name": "GA4 - outbound_click",
+                "type": "gaawe",
+                "notes": "[v.6.b.tag.81] - do not change\n\nIf you want to see/use event parameters or user properties in your GA4 reports, you will need to register them as custom dimensions.",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "sendEcommerceData",
+                        "value": "false"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "outbound"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "true"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "component_type"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "outbound"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enhancedUserId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventName",
+                        "value": "outbound_click"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "measurementIdOverride",
+                        "value": "{{GA4 - Measurement ID}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "eventSettingsVariable",
+                        "value": "{{GT - GA4 Event Settings (click)}}"
+                    }
+                ],
+                "fingerprint": "1754555297652",
+                "firingTriggerId": [
+                    "62"
+                ],
+                "blockingTriggerId": [
+                    "55",
+                    "65",
+                    "63"
+                ],
+                "parentFolderId": "22",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
+            }
+        ],
+        "trigger": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "triggerId": "8",
+                "name": "PV - 404",
+                "type": "PAGEVIEW",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Page Title}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "(404|Page not found|Stránka sa nenašla)"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1754561598371",
+                "parentFolderId": "5"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "triggerId": "55",
+                "name": "Click - Telephone Link",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^tel:"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1754561587435",
+                "parentFolderId": "54"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "triggerId": "62",
+                "name": "Click - Outbound Link",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "EQUALS",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{URL - Is Outbound}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "true"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "javascript|^$"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "negate",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1754561336037",
+                "parentFolderId": "54"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "triggerId": "63",
+                "name": "Click - Mailto Link",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "^mailto:"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1754561303155",
+                "parentFolderId": "54"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "triggerId": "65",
+                "name": "Click - Social network Link",
+                "type": "LINK_CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click URL Hostname}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "(facebook|instagram|twitter|tumblr|linkedin|whatsapp|snapchat|pinterest|youtube|skype|viber|telegram|discord|vimeo)\\.(com|org|net)"
+                            },
+                            {
+                                "type": "BOOLEAN",
+                                "key": "ignore_case",
+                                "value": "true"
+                            }
+                        ]
+                    }
+                ],
+                "waitForTags": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "checkValidation": {
+                    "type": "BOOLEAN",
+                    "value": "false"
+                },
+                "waitForTagsTimeout": {
+                    "type": "TEMPLATE",
+                    "value": "2000"
+                },
+                "uniqueTriggerId": {
+                    "type": "TEMPLATE"
+                },
+                "fingerprint": "1754561577137",
+                "parentFolderId": "54"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "triggerId": "80",
+                "name": "Click - Button",
+                "type": "CLICK",
+                "filter": [
+                    {
+                        "type": "MATCH_REGEX",
+                        "parameter": [
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg0",
+                                "value": "{{Click Classes}}"
+                            },
+                            {
+                                "type": "TEMPLATE",
+                                "key": "arg1",
+                                "value": "btn|button"
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1754561290019",
+                "parentFolderId": "54"
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "7",
+                "name": "Page Title",
+                "type": "j",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "document.title"
+                    }
+                ],
+                "fingerprint": "1754561751529",
+                "parentFolderId": "6",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "12",
+                "name": "Page Hostname (strip www)",
+                "type": "u",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "stripWww",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "HOST"
+                    }
+                ],
+                "fingerprint": "1754561762715",
+                "parentFolderId": "11",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "17",
+                "name": "GT - GA4 Configuration Settings",
+                "type": "gtcs",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "configSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "send_page_view"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "true"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1754561704546",
+                "parentFolderId": "9"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "23",
+                "name": "** EDIT ** GA4 - Measurement ID - Domains",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Page Hostname (strip www)}}"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "defaultValue",
+                        "value": "X"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "mydomainname.com"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "G-1234567"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1754563948560",
+                "parentFolderId": "9",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "24",
+                "name": "GA4 - Measurement ID",
+                "type": "smm",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "input",
+                        "value": "{{Debug Mode}}"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "map",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "false"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "{{** EDIT ** GA4 - Measurement ID - Domains}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "key",
+                                        "value": "true"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "value",
+                                        "value": "X"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1754561680974",
+                "parentFolderId": "9",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "39",
+                "name": "GT - GA4 Event Settings (basic)",
+                "type": "gtes",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "gtm_info"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Container ID}} | Version {{Container Version}} | Environment {{Environment Name}} | Event {{Event}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1754561713065",
+                "parentFolderId": "9"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "48",
+                "name": "Click URL Hostname",
+                "type": "aev",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "stripWww",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "varType",
+                        "value": "URL"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "HOST"
+                    }
+                ],
+                "fingerprint": "1754561639206",
+                "parentFolderId": "11",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "50",
+                "name": "Clean Click URL",
+                "type": "jsm",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "javascript",
+                        "value": "function() {\n  var clickURL = {{Click URL}};\n  var cleanURL = clickURL.replace(/\\&?_ga=([^&]*)/gi,'');   // ga linker\n  cleanURL = cleanURL.replace(/\\&?_gac=[^&]*/gi,'');        // campaign information\n  cleanURL = cleanURL.replace(/\\&?li_fat_id=[^&]*/gi,'');   // linkedin\n  cleanURL = cleanURL.replace(/\\&?fbclid=[^&]*/gi,'');      // facebook\n  cleanURL = cleanURL.replace(/\\&?msclkid=[^&]*/gi,'');     // bing\n  cleanURL = cleanURL.replace(/\\&?zanpid=[^&]*/gi,'');      // awin (zanox)\n  cleanURL = cleanURL.replace(/\\&?_gl=[^&]*/gi,'');         // google linker\n  cleanURL = cleanURL.replace(/\\?\\&/gi,'?');                // clean-up &?\n  cleanURL = cleanURL.replace(/\\?$/gi,'');                  // clean-up trailing ?\n  return cleanURL;\n}\n\n// lines to delete other parameters can be added"
+                    }
+                ],
+                "fingerprint": "1754561631031",
+                "parentFolderId": "11",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "56",
+                "name": "GT - GA4 Event Settings (click)",
+                "type": "gtes",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "eventSettingsTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "link_classes"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Click Classes}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "link_domain"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Click URL Hostname}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "link_id"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Click ID}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "link_text"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Click Text}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "link_url"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Clean Click URL}}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "gtm_info"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Container ID}} | Version {{Container Version}} | Environment {{Environment Name}} | Event {{Event}}"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "fingerprint": "1754561729132",
+                "parentFolderId": "9"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "variableId": "61",
+                "name": "URL - Is Outbound",
+                "type": "aev",
+                "parameter": [
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "varType",
+                        "value": "URL"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "component",
+                        "value": "IS_OUTBOUND"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "affiliatedDomains",
+                        "value": "{{Page Hostname (strip www)}}"
+                    }
+                ],
+                "fingerprint": "1754561738768",
+                "parentFolderId": "11",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "folderId": "5",
+                "name": "Page View Triggers",
+                "fingerprint": "1754555297565"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "folderId": "6",
+                "name": "Custom Variables",
+                "fingerprint": "1754555297565"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "folderId": "9",
+                "name": "GA4 Settings",
+                "fingerprint": "1754555297565"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "folderId": "11",
+                "name": "URL Variables",
+                "fingerprint": "1754555297565"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "folderId": "22",
+                "name": "GA4 Measurement",
+                "fingerprint": "1754555297566"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "folderId": "54",
+                "name": "Auto-Event Triggers",
+                "fingerprint": "1754555297647"
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "PAGE_URL",
+                "name": "Page URL"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "REFERRER",
+                "name": "Referrer"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "EVENT",
+                "name": "Event"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "CLICK_CLASSES",
+                "name": "Click Classes"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "CLICK_ID",
+                "name": "Click ID"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "CLICK_URL",
+                "name": "Click URL"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "CLICK_TEXT",
+                "name": "Click Text"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "CONTAINER_VERSION",
+                "name": "Container Version"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "DEBUG_MODE",
+                "name": "Debug Mode"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "CONTAINER_ID",
+                "name": "Container ID"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226762478",
+                "type": "ENVIRONMENT_NAME",
+                "name": "Environment Name"
+            }
+        ],
+        "fingerprint": "1754571005535",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6307289618/containers/226762478/versions/0?apiLink=version"
+    }
+}
