@@ -23,6 +23,7 @@ Repozitár obsahuje predpripravené šablóny (templates) pre Google Tag Manager
 <br>
 <img src="images/download_raw_file.png" alt="Download Raw File" width="60%">
 <br>
+
 2. Otvorte GTM a prejdite do sekcie **Správca**.  
 3. Kliknite na **Importovať kontajner**.  
 4. Vyberte stiahnutý `.json` súbor.  
