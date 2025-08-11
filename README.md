@@ -20,6 +20,9 @@ Repozitár obsahuje predpripravené šablóny (templates) pre Google Tag Manager
 
 ## 🛠️ Import šablóny do GTM kontajnera
 1. Stiahnite si `.json` súbor šablóny z tabuľky vyššie alebo z priečinku konkrétnej šablóny.  
+<br>
+<img src="images/download_raw_file.png" alt="Download Raw File" width="60%">
+<br>
 2. Otvorte GTM a prejdite do sekcie **Správca**.  
 3. Kliknite na **Importovať kontajner**.  
 4. Vyberte stiahnutý `.json` súbor.  
@@ -28,7 +31,8 @@ Repozitár obsahuje predpripravené šablóny (templates) pre Google Tag Manager
    - **Zlúčiť** – ak chcete zachovať existujúci obsah a pridať novú šablónu  
    - **Prepísať** – ak chcete nahradiť celý obsah kontajnera  
 
-**Dôležité:** Pre správne fungovanie je nutné dokončiť nastavenia podľa inštrukcií. Všetky potrebné informácie o importovaní kontajnera, úprave parametrov a prispôsobení šablóny nájdete v `README.md` súbore v priečinku danej šablóny.
+
+<span style="color:red; font-weight:bold;">Dôležité:</span> Pre správne fungovanie je nutné dokončiť nastavenia podľa inštrukcií. Všetky potrebné informácie o importovaní kontajnera, úprave parametrov a prispôsobení šablóny nájdete v `README.md` súbore v priečinku danej šablóny.
 
 
 ## 🆕 Changelog

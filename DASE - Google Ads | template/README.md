@@ -47,7 +47,7 @@ Obsahuje:
 - Do **Purchase** tagu vložte konverzný štítok (*conversion label*) konverzie, ktorú ste vytvorili v Google Ads.  
 
 <br>
-<img src="images/google_ads_id.png" alt="Google Ads ID" width="60%">
+<img src="images/google_ads_id.png" alt="Google Ads ID" width="50%">
 <br>
 <img src="images/google_ads_purchase.png" alt="Google Ads Purchase tag" width="60%">
 <br>
