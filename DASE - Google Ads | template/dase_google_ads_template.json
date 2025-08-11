@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2025-08-07 12:55:19",
+    "exportTime": "2025-08-11 04:44:33",
     "containerVersion": {
         "path": "accounts/6307289618/containers/226795059/versions/0",
         "accountId": "6307289618",
@@ -81,6 +81,7 @@
                 "tagId": "5",
                 "name": "GAds - Remarketing",
                 "type": "sp",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
@@ -113,7 +114,7 @@
                         "value": "false"
                     }
                 ],
-                "fingerprint": "1754566538712",
+                "fingerprint": "1754743970737",
                 "firingTriggerId": [
                     "2147479553"
                 ],
@@ -129,68 +130,10 @@
             {
                 "accountId": "6307289618",
                 "containerId": "226795059",
-                "tagId": "7",
-                "name": "GAds - Conversion",
-                "type": "awct",
-                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
-                "parameter": [
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableNewCustomerReporting",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableConversionLinker",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableProductReporting",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "conversionCookiePrefix",
-                        "value": "_gcl"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "enableShippingData",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "conversionId",
-                        "value": "{{** Edit ** GAds - Conversion ID}}"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "conversionLabel",
-                        "value": "EDIT"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "rdp",
-                        "value": "false"
-                    }
-                ],
-                "fingerprint": "1754571242512",
-                "parentFolderId": "16",
-                "tagFiringOption": "ONCE_PER_EVENT",
-                "monitoringMetadata": {
-                    "type": "MAP"
-                },
-                "consentSettings": {
-                    "consentStatus": "NOT_NEEDED"
-                }
-            },
-            {
-                "accountId": "6307289618",
-                "containerId": "226795059",
                 "tagId": "8",
                 "name": "GAds - Conversion - purchase",
                 "type": "awct",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
@@ -248,7 +191,7 @@
                         "value": "false"
                     }
                 ],
-                "fingerprint": "1754571268036",
+                "fingerprint": "1754743980752",
                 "firingTriggerId": [
                     "12"
                 ],
@@ -443,7 +386,7 @@
                 "name": "Event"
             }
         ],
-        "fingerprint": "1754571319359",
+        "fingerprint": "1754887473616",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6307289618/containers/226795059/versions/0?apiLink=version"
     }
 }

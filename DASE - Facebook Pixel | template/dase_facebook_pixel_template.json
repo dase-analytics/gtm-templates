@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2025-08-07 12:48:35",
+    "exportTime": "2025-08-11 04:44:03",
     "containerVersion": {
         "path": "accounts/6307289618/containers/226792546/versions/0",
         "accountId": "6307289618",
@@ -44,6 +44,7 @@
                 "tagId": "11",
                 "name": "FB - Pixel - Purchase",
                 "type": "cvt_5RM3Q",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
@@ -147,7 +148,7 @@
                         "value": "false"
                     }
                 ],
-                "fingerprint": "1754568007036",
+                "fingerprint": "1754744122046",
                 "firingTriggerId": [
                     "4"
                 ],
@@ -476,7 +477,7 @@
                 "name": "Event"
             }
         ],
-        "fingerprint": "1754570915124",
+        "fingerprint": "1754887443627",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6307289618/containers/226792546/versions/0?apiLink=version",
         "customTemplate": [
             {

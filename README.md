@@ -1,27 +1,44 @@
-# GTM Dase Templates
+# 📦 DASE – Google Tag Manager Templates
 
-Tento repozitár obsahuje predpripravené šablóny (templates) pre Google Tag Manager, ktoré môžete voľne použiť vo svojich projektoch.
+[![GitHub last commit](https://img.shields.io/github/last-commit/dase-analytics/gtm-dase-templates?color=blue)](https://github.com/dase-analytics/gtm-dase-templates/commits/main)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## Ako stiahnuť a importovať šablónu
+Repozitár obsahuje predpripravené šablóny (templates) pre Google Tag Manager, ktoré môžete voľne použiť vo svojich projektoch. Každá šablóna má vlastné README s podrobným popisom, návodom na import a nastavenie.
 
-Postupujte podľa nasledujúcich krokov:
+Šablóny sú licencované pod MIT licenciou a sú voľne šíriteľné. Spoločnosť Dase nenesie zodpovednosť za akékoľvek škody alebo straty spôsobené použitím týchto šablón.
 
-### 1. Výber šablóny
-Prejdite do priečinka so šablónou, ktorú si prajete stiahnuť.
+## 📋 Zoznam šablón
 
-### 2. Nájdenie JSON súboru
-V danom priečinku kliknite na súbor s príponou `.json`, ktorý obsahuje kód šablóny.
+| Šablóna | Popis | README | JSON |
+|---------|-------|--------|------|
+| **GA4 – Basic** | Základné meranie interakcií na webe (pageview, kliknutia, formuláre, 404) | [Otvoriť](DASE%20-%20GA4%20-%20Basic%20%7C%20template/README.md) | [Download](DASE%20-%20GA4%20-%20Basic%20%7C%20template/dase_ga4_basic_template.json) |
+| **GA4 – E-commerce** | Základné e-commerce merania podľa Google špecifikácie | [Otvoriť](DASE%20-%20GA4%20-%20E-commerce%20%7C%20template/README.md) | [Download](DASE%20-%20GA4%20-%20E-commerce%20%7C%20template/dase_ga4_ecommerce_template.json) |
+| **Google Ads** | Google Ads remarketing a konverzný purchase tag | [Otvoriť](DASE%20-%20Google%20Ads%20%7C%20template/README.md) | [Download](DASE%20-%20Google%20Ads%20%7C%20template/dase_google_ads_template.json) |
+| **Facebook Pixel** | Základné Meta Pixel merania (pageview, purchase) | [Otvoriť](DASE%20-%20Facebook%20Pixel%20%7C%20template/README.md) | [Download](DASE%20-%20Facebook%20Pixel%20%7C%20template/dase_facebook_pixel_template.json) |
+| **Server-Side GTM** | Základná konfigurácia serverového GTM kontajnera | [Otvoriť](DASE%20-%20Server-side%20GTM%20%7C%20template/README.md) | [Download](DASE%20-%20Server-side%20GTM%20%7C%20template/dase_sgtm_template.json) |
 
-### 3. Stiahnutie súboru
-Na stránke súboru kliknite vpravo hore na tlačidlo **Raw** alebo na ikonu na stiahnutie. Súbor si uložte do počítača (zvyčajne cez pravý klik a možnosť "Uložiť ako...").
 
-![Download Raw File](images/download_raw_file.png)
+## 🛠️ Import šablóny do GTM kontajnera
+1. Stiahnite si `.json` súbor šablóny z tabuľky vyššie alebo z priečinku konkrétnej šablóny.  
+2. Otvorte GTM a prejdite do sekcie **Správca**.  
+3. Kliknite na **Importovať kontajner**.  
+4. Vyberte stiahnutý `.json` súbor.  
+5. Vyberte pracovný priestor (odporúčame vytvoriť nový).  
+6. Nastavte spôsob importu:
+   - **Zlúčiť** – ak chcete zachovať existujúci obsah a pridať novú šablónu  
+   - **Prepísať** – ak chcete nahradiť celý obsah kontajnera  
 
-### 4. Import do GTM kontajnera
-V rozhraní vášho Google Tag Manager kontajnera prejdite do sekcie **Správca** (Admin). V stĺpci *Kontajner* (Container) zvoľte možnosť **Importovať kontajner** (Import Container).
-
-![GTM Container Import](images/gtm_container_import.png)
-
-### 5. Nahratie a zlúčenie
 **Dôležité:** Pre správne fungovanie je nutné dokončiť nastavenia podľa inštrukcií. Všetky potrebné informácie o importovaní kontajnera, úprave parametrov a prispôsobení šablóny nájdete v `README.md` súbore v priečinku danej šablóny.
 
+
+## 🆕 Changelog
+- **2025-08-07** – Pridané šablóny: GA4 Basic, GA4 E-commerce, Facebook Pixel, Google Ads
+- **2025-08-11** – Pridaná šablóna: Server-Side GTM
+
+---
+
+## 📩 Kontakt a odkazy
+Máte nejaké otázky alebo nejasnosti? Napíšte nám na **cibula@dase.sk**  
+
+👉 [Dase Blog](https://www.dase-analytics.com/blog/sk/)  
+👉 [Dase Instagram](https://www.instagram.com/daseanalytics/)

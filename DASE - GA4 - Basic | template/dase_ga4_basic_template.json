@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2025-08-07 12:50:05",
+    "exportTime": "2025-08-11 04:44:12",
     "containerVersion": {
         "path": "accounts/6307289618/containers/226762478/versions/0",
         "accountId": "6307289618",
@@ -466,7 +466,7 @@
                 "tagId": "93",
                 "name": "GA4 - outbound_click",
                 "type": "gaawe",
-                "notes": "[v.6.b.tag.81] - do not change\n\nIf you want to see/use event parameters or user properties in your GA4 reports, you will need to register them as custom dimensions.",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
                 "parameter": [
                     {
                         "type": "BOOLEAN",
@@ -510,11 +510,6 @@
                         ]
                     },
                     {
-                        "type": "BOOLEAN",
-                        "key": "enhancedUserId",
-                        "value": "false"
-                    },
-                    {
                         "type": "TEMPLATE",
                         "key": "eventName",
                         "value": "outbound_click"
@@ -530,7 +525,7 @@
                         "value": "{{GT - GA4 Event Settings (click)}}"
                     }
                 ],
-                "fingerprint": "1754555297652",
+                "fingerprint": "1754742928060",
                 "firingTriggerId": [
                     "62"
                 ],
@@ -872,11 +867,26 @@
                                         "value": "true"
                                     }
                                 ]
+                            },
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameter",
+                                        "value": "gtm_info"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "parameterValue",
+                                        "value": "{{Container ID}} | Version {{Container Version}}"
+                                    }
+                                ]
                             }
                         ]
                     }
                 ],
-                "fingerprint": "1754561704546",
+                "fingerprint": "1754743090916",
                 "parentFolderId": "9"
             },
             {
@@ -991,30 +1001,7 @@
                 "variableId": "39",
                 "name": "GT - GA4 Event Settings (basic)",
                 "type": "gtes",
-                "parameter": [
-                    {
-                        "type": "LIST",
-                        "key": "eventSettingsTable",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "gtm_info"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{Container ID}} | Version {{Container Version}} | Environment {{Environment Name}} | Event {{Event}}"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "fingerprint": "1754561713065",
+                "fingerprint": "1754743062591",
                 "parentFolderId": "9"
             },
             {
@@ -1151,26 +1138,11 @@
                                         "value": "{{Clean Click URL}}"
                                     }
                                 ]
-                            },
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameter",
-                                        "value": "gtm_info"
-                                    },
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "parameterValue",
-                                        "value": "{{Container ID}} | Version {{Container Version}} | Environment {{Environment Name}} | Event {{Event}}"
-                                    }
-                                ]
                             }
                         ]
                     }
                 ],
-                "fingerprint": "1754561729132",
+                "fingerprint": "1754743053735",
                 "parentFolderId": "9"
             },
             {
@@ -1318,7 +1290,7 @@
                 "name": "Environment Name"
             }
         ],
-        "fingerprint": "1754571005535",
+        "fingerprint": "1754887452754",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6307289618/containers/226762478/versions/0?apiLink=version"
     }
 }
