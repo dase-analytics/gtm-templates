@@ -1,5 +1,5 @@
 # 📦 DASE – Google Tag Manager Templates
-<img src="images/gtm_template_img.png" alt="GTM Templates" width="60%">
+<img src="images/gtm_template_img.png" alt="GTM Templates">
 <br>
 <br>
 
