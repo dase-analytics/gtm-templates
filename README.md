@@ -1,11 +1,16 @@
 # 📦 DASE – Google Tag Manager Templates
+<img src="images/gtm_template_img.png" alt="GTM Templates" width="60%">
+<br>
+<br>
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/dase-analytics/gtm-dase-templates?color=blue)](https://github.com/dase-analytics/gtm-dase-templates/commits/main)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 Repozitár obsahuje predpripravené šablóny (templates) pre Google Tag Manager, ktoré môžete voľne použiť vo svojich projektoch. Každá šablóna má vlastné README s podrobným popisom, návodom na import a nastavenie.
 
-Šablóny sú licencované pod MIT licenciou a sú voľne šíriteľné. Spoločnosť Dase nenesie zodpovednosť za akékoľvek škody alebo straty spôsobené použitím týchto šablón.
+Naše šablóny sú dostupné pod licenciou MIT. Snažili sme sa ich pripraviť univerzálne, no každá webová stránka je trochu iná. Preto je možné, že si budú vyžadovať drobné úpravy, aby fungovali presne tak, ako potrebujete. Pred nasadením ich preto odporúčame najskôr otestovať v testovacom prostredí.
+
+Ak si nebudete vedieť rady alebo budete mať otázky, radi vám pomôžeme – stačí nám napísať na cibula@dase.sk.
 
 ## 📋 Zoznam šablón
 
