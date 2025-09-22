@@ -47,11 +47,10 @@ Obsahuje:
 <br>
 <img src="images/sgtm_url_config.png" alt="Server-side GTM server_container_url" width="60%">
 <br>
-
-1. V premennej **`GA4 - Measurement ID`** nahraďte hodnotu `G-XXXXXXXX` vašim Measurement ID.  
-2. V premennej **`GTM - web container id`** nahraďte hodnotu `GTM-XXXXXX` ID vášho klientského kontajnera.  
-3. *(Voliteľné)* – ak chcete nastaviť vlastnú cestu ku GTM knižnici, v premennej **`GTM - request path`** nahraďte hodnotu `/<custom-path>.js`.  
-4. V sekcii **Správca → Nastavenia kontajnera** pridajte URL serverového kontajnera.  
+ 
+1. V premennej **`GTM - web container id`** nahraďte hodnotu `GTM-XXXXXX` ID vášho klientského kontajnera.  
+2. *(Voliteľné)* – ak chcete nastaviť vlastnú cestu ku GTM knižnici, v premennej **`GTM - request path`** nahraďte hodnotu `/<custom-path>.js`.  
+3. V sekcii **Správca → Nastavenia kontajnera** pridajte URL serverového kontajnera.  
 
 <br>
 <img src="images/sgtm_preview_url.png" alt="Server-side GTM Preview URL" width="60%">
@@ -59,6 +58,7 @@ Obsahuje:
 
 
 ## Changelog  
+- **1.0.1** – Aktualizácia GA4 klienta
 - **1.0.0** – Prvé vydanie šablóny
 
 

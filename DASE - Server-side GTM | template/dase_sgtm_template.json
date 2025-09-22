@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2025-08-11 06:44:12",
+    "exportTime": "2025-09-17 09:54:00",
     "containerVersion": {
         "path": "accounts/6307289618/containers/226958187/versions/0",
         "accountId": "6307289618",
@@ -64,10 +64,11 @@
                         "value": "all"
                     }
                 ],
-                "fingerprint": "1754743716045",
+                "fingerprint": "1758100609283",
                 "firingTriggerId": [
                     "4"
                 ],
+                "parentFolderId": "15",
                 "tagFiringOption": "ONCE_PER_EVENT",
                 "monitoringMetadata": {
                     "type": "MAP"
@@ -101,7 +102,8 @@
                         ]
                     }
                 ],
-                "fingerprint": "1754743588683"
+                "fingerprint": "1758100609283",
+                "parentFolderId": "15"
             }
         ],
         "variable": [
@@ -118,23 +120,8 @@
                         "value": "GTM-XXXXXX"
                     }
                 ],
-                "fingerprint": "1754743588683",
-                "formatValue": {}
-            },
-            {
-                "accountId": "6307289618",
-                "containerId": "226958187",
-                "variableId": "8",
-                "name": "GA4 - Measurement ID",
-                "type": "c",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "value",
-                        "value": "G-XXXXXXXX"
-                    }
-                ],
-                "fingerprint": "1754743588685",
+                "fingerprint": "1758100593436",
+                "parentFolderId": "14",
                 "formatValue": {}
             },
             {
@@ -150,8 +137,25 @@
                         "value": "/<custom path>.js"
                     }
                 ],
-                "fingerprint": "1754743588685",
+                "fingerprint": "1758100593438",
+                "parentFolderId": "14",
                 "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6307289618",
+                "containerId": "226958187",
+                "folderId": "14",
+                "name": "GTM",
+                "fingerprint": "1758100592636"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226958187",
+                "folderId": "15",
+                "name": "GA4 Measurement",
+                "fingerprint": "1758100608506"
             }
         ],
         "builtInVariable": [
@@ -174,7 +178,7 @@
                 "name": "Client Name"
             }
         ],
-        "fingerprint": "1754894652466",
+        "fingerprint": "1758102840591",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6307289618/containers/226958187/versions/0?apiLink=version",
         "customTemplate": [
             {
@@ -187,88 +191,6 @@
             }
         ],
         "client": [
-            {
-                "accountId": "6307289618",
-                "containerId": "226958187",
-                "clientId": "9",
-                "name": "GA4",
-                "type": "gaaw_client",
-                "parameter": [
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookieDomain",
-                        "value": "auto"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "activateResponseCompression",
-                        "value": "true"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookieMaxAgeInSec",
-                        "value": "63072000"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "activateGeoResolution",
-                        "value": "false"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "activateGtagSupport",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "activateDependencyServing",
-                        "value": "true"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "activateDefaultPaths",
-                        "value": "true"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookiePath",
-                        "value": "/"
-                    },
-                    {
-                        "type": "BOOLEAN",
-                        "key": "migrateFromJsClientId",
-                        "value": "false"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookieManagement",
-                        "value": "server"
-                    },
-                    {
-                        "type": "TEMPLATE",
-                        "key": "cookieName",
-                        "value": "FPID"
-                    },
-                    {
-                        "type": "LIST",
-                        "key": "gtagMeasurementIds",
-                        "list": [
-                            {
-                                "type": "MAP",
-                                "map": [
-                                    {
-                                        "type": "TEMPLATE",
-                                        "key": "measurementId",
-                                        "value": "{{GA4 - Measurement ID}}"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "priority": 100,
-                "fingerprint": "1754743588685"
-            },
             {
                 "accountId": "6307289618",
                 "containerId": "226958187",
@@ -298,7 +220,8 @@
                     }
                 ],
                 "priority": 10,
-                "fingerprint": "1754743588685"
+                "fingerprint": "1758100593437",
+                "parentFolderId": "14"
             },
             {
                 "accountId": "6307289618",
@@ -339,7 +262,55 @@
                         ]
                     }
                 ],
-                "fingerprint": "1754743588685"
+                "fingerprint": "1758100593437",
+                "parentFolderId": "14"
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226958187",
+                "clientId": "13",
+                "name": "GA4",
+                "type": "gaaw_client",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieDomain",
+                        "value": "auto"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieMaxAgeInSec",
+                        "value": "63072000"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "activateDefaultPaths",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookiePath",
+                        "value": "/"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "migrateFromJsClientId",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieManagement",
+                        "value": "server"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "cookieName",
+                        "value": "FPID"
+                    }
+                ],
+                "priority": 100,
+                "fingerprint": "1758100609282",
+                "parentFolderId": "15"
             }
         ]
     }
