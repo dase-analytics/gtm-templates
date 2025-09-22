@@ -18,6 +18,7 @@ Táto šablóna slúži na základné meranie marketingových udalostí pre **Go
 Vychádza z **Google Analytics Ecommerce Measurements** a predpokladá implementáciu štandardného e-commerce `dataLayer` podľa Google špecifikácie.  
 
 Obsahuje:  
+- Google Ads konfiguračný tag
 - remarketingový tag  
 - konverzný **Purchase** tag  
 
@@ -43,6 +44,7 @@ Obsahuje:
 
 
 ## Nastavenie a použitie  
+- V premennej **`GAds - Configuration`** nahraďte hodnotu **`AW-123456789`** identifikátorom vášho Google Ads Tagu. 
 - V premennej **`GAds - Conversion ID`** nahraďte hodnotu **`G-123456789`** vašim Google Ads Conversion ID.  
 - Do **Purchase** tagu vložte konverzný štítok (*conversion label*) konverzie, ktorú ste vytvorili v Google Ads.  
 
@@ -54,6 +56,7 @@ Obsahuje:
 
 
 ## Changelog  
+- **1.0.1** – Pridaný Google Ads konfiguračný tag
 - **1.0.0** – Prvé vydanie šablóny
 
 

@@ -1,6 +1,6 @@
 {
     "exportFormatVersion": 2,
-    "exportTime": "2025-08-11 04:44:33",
+    "exportTime": "2025-09-17 09:55:46",
     "containerVersion": {
         "path": "accounts/6307289618/containers/226795059/versions/0",
         "accountId": "6307289618",
@@ -203,6 +203,32 @@
                 "consentSettings": {
                     "consentStatus": "NOT_NEEDED"
                 }
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "226795059",
+                "tagId": "17",
+                "name": "GAds - Configuration",
+                "type": "googtag",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "tagId",
+                        "value": "AW-123456789"
+                    }
+                ],
+                "fingerprint": "1758102459021",
+                "firingTriggerId": [
+                    "2147479573"
+                ],
+                "parentFolderId": "16",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_NEEDED"
+                }
             }
         ],
         "trigger": [
@@ -386,7 +412,7 @@
                 "name": "Event"
             }
         ],
-        "fingerprint": "1754887473616",
+        "fingerprint": "1758102946577",
         "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6307289618/containers/226795059/versions/0?apiLink=version"
     }
 }
