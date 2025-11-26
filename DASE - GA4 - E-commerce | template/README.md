@@ -1,6 +1,6 @@
 # DASE – GA4 – E-commerce | Template
 
-[![Download JSON](https://img.shields.io/badge/Download-Container.json-blue)](link-na-json)
+[![Download JSON](https://img.shields.io/badge/Download-Container.json-blue)](./dase_ga4_ecommerce_template.json)
 [![GA4 Compatible](https://img.shields.io/badge/GA4-Compatible-brightgreen)](https://developers.google.com/analytics/devguides/collection/ga4/ecommerce?client_type=gtm)
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)]()
 

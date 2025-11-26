@@ -1,6 +1,6 @@
 # DASE – Facebook Pixel | Template
 
-[![Download JSON](https://img.shields.io/badge/Download-Container.json-blue)](link-na-json)
+[![Download JSON](https://img.shields.io/badge/Download-Container.json-blue)](./dase_facebook_pixel_template.json)
 [![Meta Pixel Compatible](https://img.shields.io/badge/Meta%20Pixel-Compatible-brightgreen)](https://www.facebook.com/business/help/952192354843755)
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)]()
 

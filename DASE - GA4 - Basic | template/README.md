@@ -1,7 +1,7 @@
 # DASE – GA4 – Basic | Template
 
-[![Download JSON](https://img.shields.io/badge/Download-Container.json-blue)](link-na-json)
-[![GA4 Compatible](https://img.shields.io/badge/GA4-Compatible-brightgreen)](https://support.google.com/tagmanager/answer/13034206?hl=en)
+[![Download JSON](https://img.shields.io/badge/Download-Container.json-blue)](dase_ga4_basic_template.json)
+[![GA4 Compatible](https://img.shields.io/badge/GA4-Compatible-brightgreen)](https://support.google.com/tagmanager)
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)]()
 
 ---

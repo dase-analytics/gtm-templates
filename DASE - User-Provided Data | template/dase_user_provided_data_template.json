@@ -1,0 +1,384 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2025-11-25 07:04:07",
+    "containerVersion": {
+        "path": "accounts/6307289618/containers/236039060/versions/0",
+        "accountId": "6307289618",
+        "containerId": "236039060",
+        "containerVersionId": "0",
+        "container": {
+            "path": "accounts/6307289618/containers/236039060",
+            "accountId": "6307289618",
+            "containerId": "236039060",
+            "name": "DASE - User-Provided Data",
+            "publicId": "GTM-PJQ6P3R4",
+            "usageContext": [
+                "WEB"
+            ],
+            "fingerprint": "1764052683667",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6307289618/containers/236039060/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true,
+                "supportTransformations": false
+            },
+            "tagIds": [
+                "GTM-PJQ6P3R4"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "tagId": "15",
+                "name": "GAds - User-Provided Data",
+                "type": "awud",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "userDataVariable",
+                        "value": "{{User-Provided Data}}"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "enableConversionLinker",
+                        "value": "true"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "conversionId",
+                        "value": "{{** Edit ** GAds - Conversion ID}}"
+                    }
+                ],
+                "fingerprint": "1764053332859",
+                "parentFolderId": "3",
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "monitoringMetadata": {
+                    "type": "MAP"
+                },
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "variable": [
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "4",
+                "name": "DL - user_data.address.city",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.city"
+                    }
+                ],
+                "fingerprint": "1764052817589",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "5",
+                "name": "DL - user_data.address.first_name",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.first_name"
+                    }
+                ],
+                "fingerprint": "1764052834499",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "6",
+                "name": "DL - user_data.address.last_name",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.last_name"
+                    }
+                ],
+                "fingerprint": "1764052848989",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "7",
+                "name": "DL - user_data.phone_number",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.phone_number"
+                    }
+                ],
+                "fingerprint": "1764052891962",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "8",
+                "name": "DL - user_data.address.region",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.region"
+                    }
+                ],
+                "fingerprint": "1764052865876",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "9",
+                "name": "DL - user_data",
+                "type": "v",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data"
+                    }
+                ],
+                "fingerprint": "1764052795426",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "10",
+                "name": "DL - user_data.email",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.email"
+                    }
+                ],
+                "fingerprint": "1764053504368",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "11",
+                "name": "DL - user_data.address.postal_code",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.postal_code"
+                    }
+                ],
+                "fingerprint": "1764052856557",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "12",
+                "name": "DL - user_data.address.country",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.country"
+                    }
+                ],
+                "fingerprint": "1764052825672",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "13",
+                "name": "User-Provided Data",
+                "type": "awec",
+                "notes": "Máte nejaké otázky alebo nejasnosti? Napíšte nám na cibula@dase.sk\n----------\n👉 Dase Blog: https://www.dase-analytics.com/blog/sk/\n👉 Dase Instagram: https://www.instagram.com/daseanalytics/",
+                "parameter": [
+                    {
+                        "type": "TEMPLATE",
+                        "key": "mode",
+                        "value": "CODE"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "dataSource",
+                        "value": "{{DL - user_data}}"
+                    }
+                ],
+                "fingerprint": "1764052807048",
+                "parentFolderId": "3",
+                "formatValue": {}
+            },
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "variableId": "14",
+                "name": "DL - user_data.address.street",
+                "type": "v",
+                "parameter": [
+                    {
+                        "type": "INTEGER",
+                        "key": "dataLayerVersion",
+                        "value": "2"
+                    },
+                    {
+                        "type": "BOOLEAN",
+                        "key": "setDefaultValue",
+                        "value": "false"
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "name",
+                        "value": "user_data.address.street"
+                    }
+                ],
+                "fingerprint": "1764052874401",
+                "parentFolderId": "3",
+                "formatValue": {}
+            }
+        ],
+        "folder": [
+            {
+                "accountId": "6307289618",
+                "containerId": "236039060",
+                "folderId": "3",
+                "name": "User-Provided Data",
+                "fingerprint": "1764052723042"
+            }
+        ],
+        "fingerprint": "1764054247547",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6307289618/containers/236039060/versions/0?apiLink=version"
+    }
+}

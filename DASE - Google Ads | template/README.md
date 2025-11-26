@@ -1,6 +1,6 @@
 # DASE – Google Ads | Template
 
-[![Download JSON](https://img.shields.io/badge/Download-Container.json-blue)](link-na-json)
+[![Download JSON](https://img.shields.io/badge/Download-Container.json-blue)](./dase_google_ads_template.json)
 [![Google Ads Compatible](https://img.shields.io/badge/Google%20Ads-Compatible-brightgreen)](https://support.google.com/google-ads/)
 [![Version](https://img.shields.io/badge/Version-1.0.0-orange)]()
 
