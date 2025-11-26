@@ -21,6 +21,8 @@ Ak si nebudete vedieť rady alebo budete mať otázky, radi vám pomôžeme – 
 | **Google Ads** | Google Ads remarketing a konverzný purchase tag | [Otvoriť](DASE%20-%20Google%20Ads%20%7C%20template/README.md) | [Download](DASE%20-%20Google%20Ads%20%7C%20template/dase_google_ads_template.json) |
 | **Facebook Pixel** | Základné Meta Pixel merania (pageview, purchase) | [Otvoriť](DASE%20-%20Facebook%20Pixel%20%7C%20template/README.md) | [Download](DASE%20-%20Facebook%20Pixel%20%7C%20template/dase_facebook_pixel_template.json) |
 | **Server-Side GTM** | Základná konfigurácia serverového GTM kontajnera | [Otvoriť](DASE%20-%20Server-side%20GTM%20%7C%20template/README.md) | [Download](DASE%20-%20Server-side%20GTM%20%7C%20template/dase_sgtm_template.json) |
+| **User-Provided Data** | Odosielanie používateľských dát do Google Ads | [Otvoriť](DASE%20-%20User-Provided%20Data%20%7C%20template/README.md) | [Download](DASE%20-%20User-Provided%20Data%20%7C%20template/dase_user_provided_data_template.json) |
+
 
 
 ## 🛠️ Import šablóny do GTM kontajnera
