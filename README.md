@@ -44,6 +44,7 @@ Ak si nebudete vedieť rady alebo budete mať otázky, radi vám pomôžeme – 
 
 
 ## 🆕 Changelog
+- **2025-11-26** – Pridaná šablóna: User-Provided Data
 - **2025-09-17** – Upravené šablóny: Google Ads, Server-Side GTM
 - **2025-08-11** – Pridaná šablóna: Server-Side GTM
 - **2025-08-07** – Pridané šablóny: GA4 Basic, GA4 E-commerce, Facebook Pixel, Google Ads
